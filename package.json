@@ -1,0 +1,22 @@
+{
+  "name": "pizzamanager",
+  "version": "1.0.0",
+  "description": "Pizza Manager Portal",
+  "main": "start.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "dev": "nodemon start.js"
+  },
+  "author": "Carson Brill",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "mongodb": "^5.5.0",
+    "mongoose": "^7.2.1",
+    "nodemon": "^2.0.22"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0",
+    "supertest": "^6.3.3"
+  }
+}

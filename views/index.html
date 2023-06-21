@@ -1,0 +1,77 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pizza Manager Portal</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark" aria-label="navbar header">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="/">Pizza Manager</a>
+      <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="navbar-collapse collapse" id="navbar">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/toppings-manager">Manage Toppings</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/pizza-manager">Manage Pizzas</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="container" id ="page-content">
+  <img src="pizzaLogo.png">
+  <h1>
+      Pizza Manager Portal
+  </h1>
+  <section id="manager-cards">
+    <div class="row match-height">
+      <div class="col-md-6 col-sm-12">
+        <div class="card border-primary text-center">
+          <div class="card-content">
+            <div class="card-body pt-3">
+              <img src="toppings.jpeg" alt="imagine toppings pic here" width="190"
+                class="float-left">
+              <h4 class="card-title mt-3">Toppings Editor</h4>
+              <p class="card-text">Manage which toppings are available to our pizza artists.</p>
+              <a class="btn btn-primary" href="/toppings-manager" role="button">Manage Toppings</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-sm-12">
+        <div class="card border-success text-center">
+          <div class="card-content">
+            <div class="card-body pt-3">
+              <img src="pizza.jpeg" alt="imagine pizza pic here" width="190"
+                class="float-right">
+              <h4 class="card-title mt-3">Create pizzas</h4>
+              <p class="card-text">Create pizza masterpieces with our new pizza creator.</p>
+              <a class="btn btn-success" href="/pizza-manager" role="button">Pizza Creator </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  </div> <!-- container-->
+
+  <!-- Include all compiled plugins -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+</body>
+</html>
