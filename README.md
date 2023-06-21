@@ -18,6 +18,8 @@ To run the app locally, you will need:
 
 - npm
 - express
+- jest
+- supertest
 - may need to install node: consult [this documentation](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) if you experience issues running locally.
 
 ## Installation
@@ -58,19 +60,19 @@ To run the app locally, you will need:
 
 ## Testing
 
-1. To run the tests use command:
+1. Install jest and supertest:
+
+   ```
+   npm install jest supertest
+   ```
+
+2. Run all tests using command:
 
    ```
    npm test
    ```
 
-2. This will run the jest tests, as well as showing test coverage (to use other jest flags, run `npx jest` instead).
-
-3. If you have issues running tests, make sure jest and supertest are installed:
-
-   ```
-   npm install jest supertest
-   ```
+3. This will run the jest tests, as well as showing test coverage (to use other jest flags, use `npx jest` instead).
 
 ## Tech Stack Used
 
