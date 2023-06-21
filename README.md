@@ -9,11 +9,14 @@ Pizza Manager!
 - [Requirements to run locally](#requirements)
 - [Installation](#installation)
 - [Running the App](#running-the-app)
-- [Running Tests](#running-tests)
+- [Testing](#testing)
+- [Tech Stack Used](#tech-stack-used)
 
-## Requirements to run locally
+## Requirements
 
 - npm
+- express
+- may need to install node: consult [this documentation](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) if you experience issues running locally.
 
 ## Installation
 
@@ -35,9 +38,15 @@ Pizza Manager!
    npm install
    ```
 
-## Running the App Locally
+4. Install express:
 
-1. Start the app:
+   ```
+   npm install express
+   ```
+
+## Running the App
+
+1. Start the app locally using command:
 
    ```
    npm run dev
@@ -54,3 +63,11 @@ Pizza Manager!
    ```
 
 2. This will run the jest tests, as well as showing test coverage.
+
+## Tech Stack Used
+
+For this application, the tech stack consists of:
+- Node.js [link to website](https://nodejs.org/en)
+- Express [link to website](https://expressjs.com/)
+- MongoDB [link to website](https://www.mongodb.com/)
+- Jest [link to website](https://jestjs.io/)

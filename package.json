@@ -5,7 +5,8 @@
   "main": "start.js",
   "scripts": {
     "test": "jest --coverage",
-    "dev": "nodemon start.js"
+    "dev": "nodemon start.js",
+    "start": "node start.js"
   },
   "author": "Carson Brill",
   "license": "ISC",

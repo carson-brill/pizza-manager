@@ -1,5 +1,5 @@
 const app = require('./app.js')
-const port = 3000
+const port = process.env.PORT || 3000
 
 const mongoose = require('mongoose')
 const uri = 'mongodb+srv://cbrill:pizzapassword@carsoncluster.bp97dce.mongodb.net/?retryWrites=true&w=majority'
