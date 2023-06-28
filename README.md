@@ -5,7 +5,7 @@ toppings with the Toppings Manager, and then use those toppings to create pizza 
 Pizza Manager!
 
 The application is deployed to the cloud using Google Cloud, and can be accessed here:  
-[Pizza Manager App][https://shining-glyph-390520.wl.r.appspot.com/]
+[Pizza Manager App](https://shining-glyph-390520.wl.r.appspot.com/)
 
 ## Table of Contents
 
@@ -90,4 +90,4 @@ For this application, the tech stack consists of:
 ## Questions
 
 For any questions about the application, or if you encounter any issues while following the instructions above, please contact:  
-- [Carson Brill][mailto:carson.g.brill@gmail.com]
+- [Carson Brill](mailto:carson.g.brill@gmail.com)
