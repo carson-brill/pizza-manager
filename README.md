@@ -4,6 +4,9 @@ Welcome to the Pizza Manager Application! This application allows you to create 
 toppings with the Toppings Manager, and then use those toppings to create pizza masterpieces using the 
 Pizza Manager!
 
+The application is deployed to the cloud using Google Cloud, and can be accessed here:  
+[Pizza Manager App][https://shining-glyph-390520.wl.r.appspot.com/]
+
 ## Table of Contents
 
 - [Requirements](#requirements)
@@ -11,6 +14,7 @@ Pizza Manager!
 - [Running the App](#running-the-app)
 - [Testing](#testing)
 - [Tech Stack Used](#tech-stack-used)
+- [Questions](#questions)
 
 ## Requirements
 
@@ -82,3 +86,8 @@ For this application, the tech stack consists of:
 - [MongoDB](https://www.mongodb.com/)
 - [Jest](https://jestjs.io/)
 - [Google Cloud](https://cloud.google.com/free)
+
+## Questions
+
+For any questions about the application, or if you encounter any issues while following the instructions above, please contact:  
+- [Carson Brill][mailto:carson.g.brill@gmail.com]
