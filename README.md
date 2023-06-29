@@ -4,8 +4,8 @@ Welcome to the Pizza Manager Application! This application allows you to create 
 toppings with the Toppings Manager, and then use those toppings to create pizza masterpieces using the 
 Pizza Manager!
 
-I created this CRUD app to improve upon my web development skills, and to deepen my understanding of  
-the workflow for web applications that involve REST APIs. See the [Tech Stack Used](#tech-stack-used)  
+I created this CRUD app to improve upon my web development skills, and to deepen my understanding of 
+the workflow for web applications that involve REST APIs. See the [Tech Stack Used](#tech-stack-used) 
 section for more information on the technologies and frameworks used.
 
 The application is deployed to the cloud using Google Cloud, and can be accessed here:  
